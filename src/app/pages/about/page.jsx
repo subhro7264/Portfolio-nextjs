@@ -24,7 +24,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import profilePic from "../../../asset/subhro1.jpg";
+import profilePic from "../../../../public/asset/subhro1.jpg";
 
 
 

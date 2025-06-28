@@ -3,11 +3,11 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Details from '../../../components/Details'; 
-import expenseImg from '../../../asset/3.png';
-import EcommerceImg from '../../../asset/4.png';
-import CalculatorImg from '../../../asset/2.png';
-import medShopImg from '../../../asset/1.png';
-import tableBooking from '../../../asset/5.png';
+import expenseImg from '../../../../public/asset/3.png';
+import EcommerceImg from '../../../../public/asset/4.png';
+import CalculatorImg from '../../../../public/asset/2.png';
+import medShopImg from '../../../../public/asset/1.png';
+import tableBooking from '../../../../public/asset/5.png';
 
 
 

@@ -3,7 +3,8 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-import subhroImage from '../../asset/subhro07.png'; 
+import subhroImage from '../../../public/asset/subhro07.png'; 
+
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
 
 
@@ -45,10 +46,17 @@ return (
       View My Work
     </Link>
 
-    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" download
-     className="px-6 py-3 bg-pink-600 text-white font-semibold rounded-full shadow hover:bg-pink-700 transition">
-      Download Resume
-    </a>
+<a
+ href="/asset/Resume_subhrohazra.pdf"
+  download="Subhro_Hazra_Resume.pdf"
+  
+  target="_blank"
+  rel="noopener noreferrer"
+
+  className="px-6 py-3 bg-pink-600 text-white font-semibold rounded-full shadow hover:bg-pink-700 transition"
+>
+  Download Resume
+</a>
 
   </div>
 
