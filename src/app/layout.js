@@ -6,10 +6,6 @@ import Ui from "../components/ui/Ui"
 
 
 
-
-
-
-
 export const metadata = {
  title: "Subhro Hazra | Front-End  Developer",
 description: "Front-End Developer",

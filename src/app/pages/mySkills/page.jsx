@@ -1,15 +1,15 @@
 
 'use client'
 
-import React from 'react';
+
 import { motion } from "framer-motion";
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaJs, FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaJs, FaReact, FaNodeJs, FaGithub,FaSpinner } from "react-icons/fa";
 import { SiRedux, SiExpress, SiMongodb, SiMongoose, SiFirebase, SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 
 
 const MySkills = () => {
-
+  
 
 
     const skills = [
@@ -28,12 +28,18 @@ const MySkills = () => {
     { name: "Next.js", icon: <SiNextdotjs className="text-black dark:text-white" /> },
     { name: "GitHub", icon: <FaGithub className="text-gray-800 dark:text-white" /> },
   ];
-  
-  return (
 
-<>
+
+
+
+
+
+
+return (
+
+ <>
     
-<motion.div
+ <motion.div
   initial={{ opacity: 0, y: 40 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.7 }}

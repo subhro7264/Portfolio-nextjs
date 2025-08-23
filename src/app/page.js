@@ -1,21 +1,21 @@
-'use client'
-import dynamic from 'next/dynamic';
+"use client";
+import { Suspense, lazy } from "react";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
-const Home = dynamic(() => import("./pages/Home"), {
-  ssr: false, // Optional: disable server-side rendering
-  loading: () => <div className="flex items-center justify-center h-20">
-  <div className="w-8 h-8 border-4 border-t-transparent border-white rounded-full animate-spin"></div>
-</div>, 
-});
-
-
-
+const Home = lazy(() => import("./pages/Home/Home"));
 
 export default function HomePage() {
   return (
     <>
-      <Home />
+      <Suspense
+      fallback={
+        <div className="flex justify-center items-center h-screen">
+          <AiOutlineLoading3Quarters className="animate-spin text-4xl text-blue-500" />
+        </div>
+      }
+    >
+        <Home />
+      </Suspense>
     </>
   );
 }

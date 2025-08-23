@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Details from '../../../components/Details'; 
 import expenseImg from '../../../../public/asset/3.png';
 import EcommerceImg from '../../../../public/asset/4.png';
+import EcommerceImg2 from '../../../../public/asset/6.png';
 import CalculatorImg from '../../../../public/asset/2.png';
 import medShopImg from '../../../../public/asset/1.png';
 import tableBooking from '../../../../public/asset/5.png';
@@ -50,12 +51,23 @@ const Projects = () => {
       img: EcommerceImg,
       link: 'https://react-1ee49.web.app/',
     },
+   {
+  title: 'FullStack E-commerce with Next.js',
+  subtitle: 'E-commerce App',
+  description:
+    'A full-stack e-commerce app built with Next.js, featuring secure authentication with Clerk, MongoDB for data management, and Razorpay integration for payments. Includes responsive UI with Tailwind CSS and smooth animations using Framer Motion.',
+  skills:
+    'Next.js, Tailwind CSS, Framer Motion, MongoDB, Razorpay, Clerk, Redux Toolkit, REST APIs, Responsive Web Design',
+  img: EcommerceImg2,
+  link: 'https://earth-buy.vercel.app/', 
+},
+
     {
       title: 'Simple Table Booking With ReactJs',
       subtitle: 'Table Booking App',
       description: 'Here user can order dishes and choose table number',
       skills: 'Bootstrap, Responsive Web Design, React.js, CSS, JavaScript',
-      img: tableBooking, // Use a proper image
+      img: tableBooking, 
       link: 'https://ordertable-3d543.web.app/',
     },
     {
