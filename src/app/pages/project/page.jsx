@@ -51,16 +51,17 @@ const Projects = () => {
       img: EcommerceImg,
       link: 'https://react-1ee49.web.app/',
     },
-   {
-  title: 'FullStack E-commerce with Next.js',
-  subtitle: 'E-commerce App',
-  description:
-    'A full-stack e-commerce app built with Next.js, featuring secure authentication with Clerk, MongoDB for data management, and Razorpay integration for payments. Includes responsive UI with Tailwind CSS and smooth animations using Framer Motion.',
-  skills:
-    'Next.js, Tailwind CSS, Framer Motion, MongoDB, Razorpay, Clerk, Redux Toolkit, REST APIs, Responsive Web Design',
-  img: EcommerceImg2,
-  link: 'https://earth-buy.vercel.app/', 
-},
+    
+//    {
+//   title: 'FullStack E-commerce with Next.js',
+//   subtitle: 'E-commerce App',
+//   description:
+//     'A full-stack e-commerce app built with Next.js, featuring secure authentication with Clerk, MongoDB for data management, and Razorpay integration for payments. Includes responsive UI with Tailwind CSS and smooth animations using Framer Motion.',
+//   skills:
+//     'Next.js, Tailwind CSS, Framer Motion, MongoDB, Razorpay, Clerk, Redux Toolkit, REST APIs, Responsive Web Design',
+//   img: EcommerceImg2,
+//   link: 'https://earth-buy.vercel.app/', 
+// },
 
     {
       title: 'Simple Table Booking With ReactJs',
