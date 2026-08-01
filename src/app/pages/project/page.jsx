@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Details from '../../../components/Details'; 
 import expenseImg from '../../../../public/asset/3.png';
 import EcommerceImg from '../../../../public/asset/4.png';
-import EcommerceImg2 from '../../../../public/asset/6.png';
+// import EcommerceImg2 from '../../../../public/asset/6.png';
 import CalculatorImg from '../../../../public/asset/2.png';
 import medShopImg from '../../../../public/asset/1.png';
 import tableBooking from '../../../../public/asset/5.png';
@@ -51,7 +51,7 @@ const Projects = () => {
       img: EcommerceImg,
       link: 'https://react-1ee49.web.app/',
     },
-    
+
 //    {
 //   title: 'FullStack E-commerce with Next.js',
 //   subtitle: 'E-commerce App',
